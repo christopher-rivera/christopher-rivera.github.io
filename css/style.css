@@ -1,0 +1,64 @@
+@media (min-width: 320px) {
+    .background {
+        background-color: #ffb6c1;
+    }
+    
+    .content {
+        text-align: center;
+        color: white;
+        font-family: 'Vidaloka', serif;
+        font-size: 1.2em;
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    #logo-img {
+        padding: 8px 12px 5px 12px;
+    
+    }
+    
+    #card-img {
+        padding: 10px 20px;
+    }
+    
+    #submit {
+        color: white;
+        text-decoration: none;
+    }     
+}
+ 
+@media (min-width: 768px) {
+    .content {
+        font-size: 2.5em;
+    }
+    
+    #logo-img {
+        padding: 20px 20px 5px 20px;
+    
+    }
+    
+    #card-img {
+        padding: 12px 20px;
+    }
+}
+
+@media (min-width: 1224px) {
+    .background {
+        overflow-y: hidden;
+    }
+    #logo-img {
+        padding: 5px 20px;
+    
+    }
+
+    #card-img {
+        padding: 12px 20px 5px 20px;
+    }
+}
+
+
+
+    
